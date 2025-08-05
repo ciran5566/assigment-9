@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phonebook Application</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Phonebook</h2>
+    <form id="contactForm" class="mb-4" autocomplete="off">
+      <div class="form-row">
+        <div class="col-md-5 mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="nameInput"
+            placeholder="Enter name"
+            required
+          />
+        </div>
+        <div class="col-md-5 mb-2">
+          <input
+            type="tel"
+            class="form-control"
+            id="phoneInput"
+            placeholder="Enter phone number"
+            title=" Enter phone number"
+            required
+          />
+        </div>
+        <div class="col-md-2 mb-2">
+          <button type="submit" class="btn btn-primary btn-block">new contact </button>
+        </div>
+      </div>
+    </form>
+    <ul class="list-group" id="contactList"></ul>
+    <div id="errorMessage" class="text-danger mt-3" role="alert" style="display:none"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

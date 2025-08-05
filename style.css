@@ -1,0 +1,27 @@
+.container{
+    width: 50%;
+    min-height: 50vh;
+    background-color: rgb(229, 145, 43);
+    padding: 10px;
+    border-radius:30px ;
+}
+.div{
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    border: none;
+    padding: 15px;
+    font-weight: 30px;
+}
+button{
+    padding: 15px 40px;
+    background: #123bc2;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+}
